@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px 100px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+nav a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 0 30px;
+}
+
+/* body1 **********************/
+
+.girl {
+  background-image: url('../images/girlnew.png');
+  position: absolute;
+  left: 50px;
+  top: 190px;
+  width: 315px;
+  height: 520px;
+  z-index: 8;
+}
+
+.repit {
+  font-size: 30px;
+  font-family: 'YuMincho';
+  color: rgb(17, 17, 17);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 5px 9.2px rgba(198, 159, 233, 0.25);
+  position: absolute;
+  left: 450px;
+  top: 330px;
+  width: 433px;
+  height: 358px;
+  z-index: 7;
+}
+
+.rectangleOne {
+  border-width: 4px;
+  border-color: rgb(217, 109, 169);
+  border-style: solid;
+  border-radius: 43px;
+  box-shadow: 0px 5px 9.2px 0.8px rgba(153, 99, 200, 0.9);
+  background-color: rgb(250, 246, 243);
+  position: absolute;
+  left: 440px;
+  top: 320px;
+  width: 450px;
+  height: 395px;
+  z-index: 4;
+}
+
+.hairIron {
+  background-image: url('../images/hairIron.png');
+  position: absolute;
+  right: 90px;
+  top: 130px;
+  width: 600px;
+  height: 627px;
+  z-index: 5;
+}
+
+/* body2 ***************/
+
+.rectangleTwo {
+  border-width: 4px;
+  border-color: rgb(217, 109, 169);
+  border-style: solid;
+  border-radius: 20px;
+  background-color: rgb(250, 246, 243);
+  box-shadow: 0px 5px 9.2px 0.8px rgba(153, 99, 200, 0.9);
+  position: absolute;
+  left: 90px;
+  top: 960px;
+  width: 527px;
+  height: 470px;
+  z-index: 19;
+}
+
+.idolText {
+  font-size: 20px;
+  font-family: 'YuMincho';
+  color: rgb(0, 0, 0);
+  line-height: 2;
+  text-align: left;
+  -moz-transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+  -webkit-transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+  -ms-transform: matrix(1.2, 0, 0, 1.2, 0, 0);
+  position: absolute;
+  left: 175px;
+  top: 1050px;
+  width: 360px;
+  height: 395px;
+  z-index: 20;
+}
+
+.mujin {
+  background-image: url('../images/boy.png');
+  position: absolute;
+  border-radius: 30px;
+  right: 150px;
+  top: 800px;
+  width: 630px;
+  height: 750px;
+  z-index: 5;
+}
+
+.choiMujin {
+  font-size: 30px;
+  font-family: 'YuMincho +36p Kana';
+  color: rgba(56, 61, 65, 0.929);
+  text-align: center;
+  position: absolute;
+  left: 120px;
+  top: 700px;
+  z-index: 18;
+}
+
+/* left Table*******************/
+
+.image {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: bisque;
+  text-align: right;
+  text-shadow: 0px 5px 9.2px rgba(198, 159, 233, 0.25);
+}
+
+.maruBlock {
+  position: absolute;
+  left: 50px;
+  top: 1750px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: right;
+}
+
+.brushBlock {
+  position: absolute;
+  left: 50px;
+  top: 1850px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: right;
+}
+.brushText {
+  font-size: 16px;
+  left: 80px;
+  font-family: 'YuMincho';
+  text-align: right;
+  position: absolute;
+}
+.tempBlock {
+  position: absolute;
+  left: 50px;
+  top: 1950px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: right;
+}
+.tempText {
+  font-size: 19px;
+  left: 160px;
+  font-family: 'YuMincho';
+  text-align: right;
+  position: absolute;
+}
+/* Pipe picture */
+#square {
+  position: absolute;
+  width: 650px;
+  height: 500px;
+  top: 1700px;
+  left: 450px;
+}
+
+/* Right table */
+
+.suitcaseBlock {
+  position: absolute;
+  right: 100px;
+  top: 1750px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: right;
+}
+.suitcaseText {
+  font-size: 16px;
+  right: 50px;
+  font-family: 'YuMincho';
+  text-align: right;
+  position: absolute;
+}
+.reloadBlock {
+  position: absolute;
+  right: 100px;
+  top: 1850px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: right;
+}
+.reloadText {
+  font-size: 16px;
+  right: 50px;
+  font-family: 'YuMincho';
+  text-align: right;
+  position: absolute;
+}
+.arrowBlock {
+  position: absolute;
+  right: 100px;
+  top: 1950px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: right;
+}
+.arrowText {
+  font-size: 16px;
+  right: 20px;
+  font-family: 'YuMincho';
+  text-align: right;
+  position: absolute;
+}
+/* body 3  *************/
+
+#hairLeft {
+  width: 700px;
+  height: 700px;
+  left: 100px;
+  position: absolute;
+  top: 2150px;
+}
+#hairRight {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+  top: 2150px;
+  right: 30px;
+}
+
+/* body 4****************** */
+
+#vertical {
+  width: 500px;
+  height: 500px;
+  left: 80px;
+  position: absolute;
+  top: 2850px;
+  border-radius: 50px;
+}
+/* Blocks ******* */
+
+.nameBlock {
+  position: absolute;
+  right: 600px;
+  top: 2950px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 2%;
+  text-align: center;
+}
+.codeBlock {
+  position: absolute;
+  right: 600px;
+  top: 3050px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.tempControlBlock {
+  position: absolute;
+  right: 100px;
+  top: 2950px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.sizeBlock {
+  position: absolute;
+  right: 100px;
+  top: 3050px;
+  width: 350px;
+  font-size: 18px;
+  height: 80px;
+  border: solid pink 3px;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(245, 209, 164);
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+/* button */
+
+.website {
+  position: absolute;
+  font-family: 'YuMincho';
+  right: 440px;
+  top: 3200px;
+  width: 180px;
+  font-size: 16px;
+  height: 50px;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  background-color: #0171e3;
+  box-shadow: 0px 5px 9.2px 0.8px rgb(85, 73, 225);
+}
+.website:hover {
+  background-color: #2a8aea;
+  transition: ease-in-out 0.1s;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  transition: ease-in-out 0.2s;
+}
+/* Body last */
+.oneLady {
+  width: 800px;
+  height: 800px;
+  left: 20px;
+  position: absolute;
+  top: 1700px;
+  border-radius: 50px;
+}
+.twoLadies {
+  width: 600px;
+  height: 600px;
+  right: 50px;
+  position: absolute;
+  top: 1700px;
+  border-radius: 50px;
+}
+
+/* button */
+
+.bag {
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  top: 4100px;
+  border-radius: 10px;
+  right: 330px;
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+  background-color: #05b773;
+  font-family: 'YuMincho';
+  box-shadow: 0px 5px 9.2px 0.8px #0a8254;
+  cursor: pointer;
+}
+.bag:hover {
+  background-color: #0a8254;
+  transition: ease-in-out 0.1s;
+}
+.footer {
+  margin: 20px;
+  font-size: 22spx;
+  top: 4300px;
+  left: 650px;
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+}
