@@ -30,7 +30,7 @@ nav a {
 /* body1 **********************/
 
 .girl {
-  background-image: url('../images/girlnew.png');
+  background-image: url('./girlnew.png');
   position: absolute;
   left: 50px;
   top: 190px;
@@ -70,7 +70,7 @@ nav a {
 }
 
 .hairIron {
-  background-image: url('../images/hairIron.png');
+  background-image: url('./hairIron.png');
   position: absolute;
   right: 90px;
   top: 130px;
@@ -114,7 +114,7 @@ nav a {
 }
 
 .mujin {
-  background-image: url('../images/boy.png');
+  background-image: url('./boy.png');
   position: absolute;
   border-radius: 30px;
   right: 150px;
